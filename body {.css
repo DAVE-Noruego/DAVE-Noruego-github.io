@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  #navbar {
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #welcome-section {
+    height: 100vh; /* Altura del viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .project-tile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Media query para dispositivos móviles */
+  @media (max-width: 768px) {
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  
+  
+  
